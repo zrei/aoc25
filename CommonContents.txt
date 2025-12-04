@@ -15,10 +15,10 @@ int main(int argc, char* argv[]) {
     ReadFromFile(argv[1], outputLines);
 
     long long part1Answer = Part1(outputLines);
-    std::cout << "Part 1 Answer: " << Part1(outputLines) << std::endl;
+    std::cout << "Part 1 Answer: " << part1Answer << std::endl;
 
     long long part2Answer = Part2(outputLines);
-    std::cout << "Part 2 Answer: " << Part2(outputLines) << std::endl;
+    std::cout << "Part 2 Answer: " << part2Answer << std::endl;
 }
 
 long long Part1(const std::vector<std::string>& outputLines)
