@@ -1,0 +1,5 @@
+<h2>Part 1</h2>
+Maintained a vector of pointers indicating each laser currently in play (based on their column) and a count for number of splits. Iterated through the grid from top to bottom, incrementing the count for each laser that meets a splitter. The vector of pointers is updated at the end, ensuring only unique columns are represented.
+
+<h2>Part 2</h2>
+A dynamic programming solution, where I start from the bottom row and maintain a vector indicating the number of splits that will be experienced for each column for the current row (no need to account for unique columns). When encountering a split, add the number of splits for the adjacent columns from the row below and add 1. Working backwards, I can obtain the number of splits that will be experienced by the laser at the start point.

@@ -42,6 +42,7 @@
         "sstream": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "unordered_map": "cpp"
     }
 }
