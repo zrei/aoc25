@@ -26,4 +26,12 @@ else
     touch $folderName/$inFileName
 fi
 
+readMeFileName=$dayNumber.md
+if test -e $folderName/$readMeFileName; then
+    echo $readMeFileName already exists!
+else
+    echo Creating readme file $readMeFileName
+    touch $folderName/$readMeFileName
+fi
+
 echo Done
