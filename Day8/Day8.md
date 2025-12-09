@@ -6,4 +6,4 @@ First, I calculated the squared distances between every possible pair, before so
 I then iterated through the adjacency list, calculating the length of each unique circuit via traversal.
 
 <h2>Part 2</h2>
-Part 2 simply involves continuing to update the adjacency list until we've made 999 direct links, which will ensure all circuits are linked in one circuit.
+Part 2 simply involves continuing to update the adjacency list until we've made 999 direct links, which will ensure all nodes are linked in one circuit.
