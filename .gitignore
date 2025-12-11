@@ -1,5 +1,15 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
 # mac compilation and test output files
 *.out
+*.o
 *.DS_Store
 
 # input files
